@@ -1,0 +1,139 @@
+@media(max-width: 75rem) {
+    /* 1200px / 16px = 88rem */
+
+    .grid {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+}
+
+@media(max-width: 57rem) {
+
+    /* 900px / 16px */
+    html {
+        font-size: 56.25%;
+        /* 9px / 16px * 100 = */
+    }
+
+    .grid{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+}
+
+@media (max-width: 52rem) {
+    /* 820px / 16px  = 51.25rem*/
+    /* 52rem x 16px = 832px */
+
+    html {
+        font-size: 50%;
+        /* 8px / 16px * 100 = 50% */
+    }
+
+    .features-card {
+        width: 60rem;
+        height: 40rem;
+    }
+
+    .media {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    video {
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+@media(max-width: 42rem){
+    /* 670px / 16px = 42rem*/
+
+    .grid{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.portfolio{
+    width: 300px;
+    border-radius: 20px;
+    transition: 1.5s;
+}
+
+
+}
+
+@media(max-width: 37rem) {
+    /* 579px / 16px  = 37rem*/
+    /* 37rem x 16px = 592px*/
+
+    html {
+        font-size: 37.5%;
+        /* 6px / 16px =37.5%  */
+    }
+
+    .features-card {
+        height: 25rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 7rem;
+        padding-left: 5rem;
+    }
+
+    .media {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .media:hover {
+        transform: scale(1.2, 1.2);
+        border-radius: 20px;
+    }
+
+    .grid{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1rem;
+}
+
+.portfolio{
+    width: 200px;
+    border-radius: 10px;
+    transition: 1.5s;
+}
+
+
+}
+
+@media(max-width: 30rem) {
+    /* 480px / 16px = 30rem*/
+    /* 30rem x 16px = 480px*/
+
+    html {
+        font-size: 31.25%;
+        /* 5px /16px *100 = 31.25% */
+    }
+
+    .grid{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.portfolio{
+    width: 150px;
+    border-radius: 10px;
+    transition: 1.5s;
+}
+
+}
